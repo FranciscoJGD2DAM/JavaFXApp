@@ -46,7 +46,7 @@ public class JavaFXApp extends Application {
         root.getChildren().addAll(btn,btn2);
         
         
-        Scene scene = new Scene(root, 500, 450);
+        Scene scene = new Scene(root, 400, 450);
         
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
